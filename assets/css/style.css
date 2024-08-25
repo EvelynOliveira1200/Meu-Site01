@@ -57,7 +57,17 @@ h2 {
   margin-top: 80px;
 }
 
-header li{
-  text-align: right;
-
+.links{
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
 }
+.links li {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 1rem;
+  border-bottom: 3px solid transparent;
+  border-radius: 6px;
+  transition: 0.3s ease-in-out;
+}
+
