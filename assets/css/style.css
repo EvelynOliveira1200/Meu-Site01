@@ -110,6 +110,24 @@ blockquote{
 
 }
 
+main {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 200px;
+}
 
+#home h3{
+  font-size: 25px;
+  margin-left: 20px;
+  margin-top: 50px;
+  color: rgb(71, 49, 40);
+}
+
+#home p{
+  font-weight: bolder;
+  margin-left: 20px;
+  margin-top: 40px;
+  color: rgb(87, 62, 52)
+}
 
 
