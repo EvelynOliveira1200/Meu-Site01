@@ -116,13 +116,16 @@ main {
   margin-top: 200px;
 }
 
-#home h3{
+#home h3,
+#historia h3{
   font-size: 25px;
   margin-left: 70px;
   margin-top: 11%;
-  color: rgb(149, 101, 81)}
+  color: rgb(149, 101, 81)
+}
 
-#home p{
+#home p,
+#historia p{
   font-size: 15px;
   font-weight: bolder;
   margin-left: 70px;
@@ -130,7 +133,8 @@ main {
   color: rgb(131, 99, 86)
 }
 
-#main-img img{
+#main-img img,
+#historia-img img{
   height: 200px;
   width: 300px;
   border-radius: 10px;
@@ -164,4 +168,37 @@ main {
   margin-right: 10px;
   border-radius: 20px;
   margin-top: 20px;
+}
+
+section{
+  font-size: 20px;
+  margin-left: 70px;
+  
+}
+
+.missao h3,
+.visao h3,
+.valores h3 {
+  margin: 10px;
+  color: rgb(71, 49, 40);
+  position: relative;
+  text-align: center;
+
+
+}
+.missao,
+.visao, 
+.valores{
+  text-align: center;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  margin-left: 10px;
+}
+
+.missao p,
+.visao p,
+.valores p{
+  margin-top: 30px;
+  text-align: center;
 }
