@@ -118,16 +118,50 @@ main {
 
 #home h3{
   font-size: 25px;
-  margin-left: 20px;
-  margin-top: 50px;
-  color: rgb(71, 49, 40);
-}
+  margin-left: 70px;
+  margin-top: 11%;
+  color: rgb(149, 101, 81)}
 
 #home p{
+  font-size: 15px;
   font-weight: bolder;
-  margin-left: 20px;
-  margin-top: 40px;
-  color: rgb(87, 62, 52)
+  margin-left: 70px;
+  margin-top: 15px;
+  color: rgb(131, 99, 86)
 }
 
+#main-img img{
+  height: 200px;
+  width: 300px;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-right: 70px;
+  margin-top: 75px;
+}
 
+.promocao h3{
+  color: rgb(149, 101, 81);
+  text-align: left;
+  margin-top: 40px;
+  font-size: 25px;
+  margin-left: 70px;
+
+
+}
+.promocao hr{
+  border: 2px solid rgba(149, 101, 81, 0.849);
+  width: 260px;
+  margin: 10px;
+  margin-left: 70px;
+
+
+}
+
+#frase-Motivacional{
+  height: 700px;
+  width: 91%;
+  margin-left: 70px;
+  margin-right: 10px;
+  border-radius: 20px;
+  margin-top: 20px;
+}
