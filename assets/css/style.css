@@ -121,7 +121,7 @@ main {
   font-size: 25px;
   margin-left: 70px;
   margin-top: 11%;
-  color: rgb(149, 101, 81)
+  color:rgb(81, 55, 45)
 }
 
 #home p,
@@ -130,7 +130,7 @@ main {
   font-weight: bolder;
   margin-left: 70px;
   margin-top: 15px;
-  color: rgb(131, 99, 86)
+  color: rgb(118, 83, 69);
 }
 
 #main-img img,
@@ -144,7 +144,7 @@ main {
 }
 
 .promocao h3{
-  color: rgb(149, 101, 81);
+  color: rgb(81, 55, 45);
   text-align: left;
   margin-top: 40px;
   font-size: 25px;
@@ -153,7 +153,7 @@ main {
 
 }
 .promocao hr{
-  border: 2px solid rgba(149, 101, 81, 0.849);
+  border: 2px solid rgb(128, 85, 68);
   width: 260px;
   margin: 10px;
   margin-left: 70px;
@@ -176,29 +176,133 @@ section{
   
 }
 
-.missao h3,
-.visao h3,
-.valores h3 {
-  margin: 10px;
-  color: rgb(71, 49, 40);
-  position: relative;
-  text-align: center;
-
-
-}
-.missao,
-.visao, 
-.valores{
-  text-align: center;
-  margin-top: 40px;
+#importantes {
   display: flex;
-  justify-content: center;
-  margin-left: 10px;
+  margin-left: 5%;
+}
+
+.missao {
+  margin-left: 5px
+}
+
+.visao {
+  margin-left: 120px;
+  margin-right: 100px;
+}
+
+.valores {
+  margin-right: 100px;
 }
 
 .missao p,
 .visao p,
 .valores p{
-  margin-top: 30px;
+  color: rgb(118, 83, 69);
+  margin-top: 20px;
+}
+
+.missao h3,
+.visao h3,
+.valores h3{
+  color:rgb(81, 55, 45);
   text-align: center;
+  margin-top: 30px;
+}
+
+
+.contato h3{
+  font-size: 30px;
+  margin-left: 70px;
+  margin-top: 5%;
+  color:rgb(81, 55, 45);
+}
+
+.contato p{
+  font-size: 20px;
+  font-weight: bolder;
+  margin-left: 70px;
+  margin-top: 15px;
+  color: rgb(118, 83, 69);
+}
+
+.contato blockquote{
+  font-family: "PT Serif", serif;
+  font-weight: 10;
+  color: rgb(71, 49, 40);
+  margin-left: 70px;
+  font-size: 18px;
+}
+
+footer {
+  background-color: rgba(149, 101, 81, 0.849);
+  color: #fff;
+  text-align: center;
+  position: relative;
+  width: 100%;
+  margin-top: 250px;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+form{
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(149, 101, 81, 0.849);
+  margin-top: 40px;
+}
+form fieldset{
+  border: 1px solid rgb(71, 49, 40);
+  padding: 10px;
+  margin-top: 10px;
+}
+
+form label{
+  display: block;
+  margin-bottom: 5px;
+  color: rgb(131, 99, 86);
+}
+form legend{
+  padding: 0 10px;
+  font-weight: bold;
+  color:rgb(71, 49, 40);
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="number"],
+form input[type="date"],
+form select,
+form textarea{
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(71, 49, 40);
+    border-radius: 5px;
+}
+form input[type="radio"]
+form input[type="checkbox"]
+form button{
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+form button:hover{
+    background-color:  rgb(131, 99, 86);
+    border-radius: 2px;
+
+    
 }

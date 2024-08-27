@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Loja Feminina 🦄</title>
     <link rel="stylesheet" href="assets/css/style.css">
     <script src="https://kit.fontawesome.com/7478fe44cb.js" crossorigin="anonymous"></script>
+
 <body>
     <header>
 
@@ -15,42 +17,101 @@
 
         <div>
             <h2><b>Contato</b></h1>
-            <hr>
-            <blockquote><b>Alguma dúvida? Fale conosco!</b></blockquote>
+                <hr>
+                <blockquote><b>Alguma dúvida? Fale conosco!</b></blockquote>
         </div>
 
         <div class="links">
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="sobre.html">Sobre</a></li>
-                <li><a href="contato.html">Contato</a></li>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="contato.html">Contato</a></li>
         </div>
-</header>
-
+    </header>
+    <main>
         <div class="contato">
-            <div id="icons">
-                <div class="github">
-                    <i class="fa-brands fa-github fa-xl" style="color: #956551;"></i>
-                    <p>Acesse minha página no GitHub!</p>
-                </div>
-                <div class="instagram">
-                    <i class="fa-brands fa-instagram fa-xl" style="color: #956551;"></i>
-                    <p>Acesse minha página no Instagram!</p>
-                </div>
-                <div class="linkedin">
-                    <i class="fa-brands fa-linkedin fa-xl" style="color: #956551;"></i>
-                    <p>Acesse minha página no Linkedin!</p>
-                </div>
-            </div>
+            <h3><b>Entre em Contato</b></h3>
+            <p>Tem alguma dúvida sobre nossos produtos, tamanhos, ou quer saber mais sobre nossos lançamentos? Estamos aqui para ajudar! <br>
 
-            <div id="profile-img">
-                <a href="https://github.com/EvelynOliveira1200"><img id="github" src="assets/Img/Captura de tela 2024-08-25 173728.png" alt="github" ></a>
-                <a href="https://www.linkedin.com/in/evelyn-gon%C3%A7alves-de-oliveira-067a4a275/"><img id="linkedin" src="assets/Img/Captura de tela 2024-08-25 173423.png" alt="linkedin" ></a>
-                <a href="https://www.instagram.com/eveelyn_olliveira?igsh=ZWp0ODJsa2ozc2g="><img id="github" src="assets/Img/WhatsApp Image 2024-08-25 at 17.42.45.jpeg" alt="instagram" ></a>
-            </div>
+            Nossa equipe está pronta para atender você e garantir que sua experiência de compra seja a melhor possível. Entre em contato conosco através do formulário abaixo,<br> ou envie um e-mail para Loja.feminina@gmail.com. <br> <br>
+                
+                <blockquote>Responderemos o mais rápido possível!</blockquote>
+            </p>
         </div>
-
-
-
+</main>
+        <form>
+            <fieldset>
+                <legend>Informações Pessoais</legend>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required maxlength="100">
     
+                <label for="email">E-mail:</label>
+                <input type="text" id="email" name="nome" placeholder="Seuemail@seuemail.com" required>
+
+                <label for="idade">Idade:</label>
+                <input type="number" id="idade" name="idade" placeholder="Digite sua idade" min="18" max="100">
+
+                <label for="data-de-nascimento">Data de nascimento:</label>
+                <input type="date" id="data-de-nascimento" name="data-de-nascimento" placeholder="Digite sua idade" min="18"
+                max="100">
+
+            </fieldset>
+
+            <fieldset>
+                <label for="cidade">Cidade:</label>
+            <select name="cidade" id="cidade" required>
+                <option value="sao-paulo">São Paulo</option>
+                <option value="rio-de-janeiro">Rio de Janeiro</option>
+                <option value="belo-horizonte">Belo Horizonte</option>
+                <option value="salvador">Salvador</option>
+                <option value="brasilia">Brasília</option>
+                <option value="curitiba">Curitiba</option>
+                <option value="porto-alegre">Porto Alegre</option>
+                <option value="fortaleza">Fortaleza</option>
+                <option value="recife">Recife</option>
+                <option value="manaus">Manaus</option>
+                <option value="goiania">Goiânia</option>
+                <option value="vitoria">Vitória</option>
+                <option value="florianopolis">Florianópolis</option>
+                <option value="natal">Natal</option>
+                <option value="joao-pessoa">João Pessoa</option>
+                <option value="teresina">Teresina</option>
+                <option value="aracaju">Aracaju</option>
+                <option value="maceio">Maceió</option>
+                <option value="palmas">Palmas</option>
+                <option value="belem">Belém</option>
+                <option value="sao-luis">São Luís</option>
+                <option value="porto-velho">Porto Velho</option>
+                <option value="rio-branco">Rio Branco</option>
+                <option value="macapa">Macapá</option>
+                <option value="boa-vista">Boa Vista</option>
+                <option value="campo-grande">Campo Grande</option>
+            </select>
+
+            <label for="descricao">Descrição:</label>
+            <textarea name="descricao" id="descricao" rows="5" placeholder="Deixe sua mensagem!" required></textarea>
+        </fieldset>
+
+        <button type="submit">Enviar</button>
+            </form>
+
+
+
+
+
+        <footer>
+            <h4>Site desenvolvido pela Dev: Evelyn Gonçalves de Oliveira</h4>
+            <p>Para visualizar mais de pertinho meu trabalho, acesse minhas páginas:</p>
+            <div class="icons">
+                <a href="https://github.com/EvelynOliveira1200"><i class="fa-brands fa-github fa-xl" style="color: #956551;"></i></a>
+                <a href="https://www.instagram.com/eveelyn_olliveira?igsh=ZWp0ODJsa2ozc2g="><i
+                        class="fa-brands fa-instagram fa-xl" style="color: #956551;"></i></a>
+                <a href="https://www.linkedin.com/in/evelyn-gon%C3%A7alves-de-oliveira-067a4a275/"><i
+                        class="fa-brands fa-linkedin fa-xl" style="color: #956551;"></i></a>
+            </div>
+        </footer>
+
+
+
 </body>
+
 </html>
